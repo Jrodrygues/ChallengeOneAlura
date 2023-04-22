@@ -1,0 +1,528 @@
+hyml,
+body {
+  /* Light blue/light-blue-100 */
+  position: absolute;
+  width: 120px;
+  height: 48px;
+  left: 40px;
+  top: 40px;
+  padding: 0px;
+  gap: 40px;
+
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #868e96;
+}
+
+header {
+  position: absolute;
+  left: 84px;
+  top: 40px;
+}
+
+section {
+  position: relative;
+}
+
+#input {
+  position: absolute;
+  top: 60px;
+  left: 280px;
+}
+
+/* Texto Digite seu  texto aqui */
+
+section input {
+  position: absolute;
+  width: 680px;
+  height: 48px;
+  left: 240px;
+  top: -30px;
+
+  border: 1px solid #868e96;
+  color: #868e96;
+  border-radius: 22px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 150%;
+}
+
+section input::placeholder {
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 48px;
+
+  color: #868e96;
+}
+
+#position {
+  position: absolute;
+  top: 700px;
+  left: 260px;
+  margin: auto;
+}
+
+#exclamacaoAviso img {
+  /* Apenas letras minúsculas e sem acento. */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  width: 228px;
+  height: 18px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+
+  background: #495057;
+  opacity: 1;
+}
+
+#exclamacaoAviso {
+  /* Apenas letras minúsculas e sem acento. */
+
+  position: absolute;
+  width: 228px;
+  height: 18px;
+  top: 645px;
+  margin-left: 530px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+
+  /* Gray/gray-400 */
+
+  color: white;
+
+  opacity: 1;
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+/* Botões */
+
+#button {
+  display: flex;
+}
+
+#btn_cript {
+  position: absolute;
+  width: 280px;
+  height: 50px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+
+  background: #ced4da;
+  border: 1px solid #868e96;
+  color: black;
+  border-radius: 22px;
+
+  font-family: 'Inter';
+  font-size: 20px;
+
+  bottom: 50px;
+  margin-left: 30px;
+  cursor: pointer;
+}
+
+#btn_cript:hover {
+  background-color: #868e96;
+  color: white;
+  border: 1px solid black;
+}
+
+#btn_descript {
+  position: absolute;
+  width: 280px;
+  height: 50px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+
+  background: #ced4da;
+  border: 1px solid #868e96;
+  color: black;
+
+  border-radius: 22px;
+  font-family: 'Inter';
+  font-size: 20px;
+
+  bottom: 50px;
+  margin-left: 350px;
+  cursor: pointer;
+}
+
+#btn_descript:hover {
+  background-color: #868e96;
+  color: white;
+  border: 1px solid black;
+}
+
+#btn3 {
+  position: absolute;
+  width: 280px;
+  height: 50px;
+  padding: 24px;
+  bottom: 50px;
+  margin-left: 60px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: #ced4da;
+  color: black;
+  border: 1px solid #868e96;
+  border-radius: 22px;
+
+  font-family: 'Inter';
+  font-size: 20px;
+  cursor: pointer;
+}
+
+#btn3:hover {
+  background-color: #adb5bd;
+  color: white;
+  border: 1px solid black;
+}
+
+aside {
+  position: absolute;
+  width: 336px;
+  height: 304px;
+  left: 1020px;
+  top: 283px;
+}
+
+#card svg {
+  position: absolute;
+  width: 336px;
+  height: 304px;
+  left: 25px;
+  top: 243px;
+}
+
+#card {
+  position: absolute;
+  width: 400px;
+  height: 890px;
+  left: 350px;
+  top: -300px;
+
+  /* White */
+
+  background: #ffffff;
+  /* shadow */
+
+  box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+  border-radius: 32px;
+}
+
+#card h3 {
+  width: 336px;
+  height: 58px;
+
+  line-height: 120%;
+  margin-top: 550px;
+  margin-left: 35px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+
+  /* Gray/gray-500 */
+
+  color: #343a40;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+#card p {
+  /* Digite um texto que você deseja criptografar ou descriptografar. */
+  line-height: 150%;
+  margin-left: 35px;
+
+  width: 336px;
+  height: 48px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+
+  text-align: center;
+
+  /* Gray/gray-400 */
+
+  color: #495057;
+
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+#card2 {
+  display: none;
+  padding: 10px;
+  position: absolute;
+  width: 400px;
+  height: 890px;
+  left: 350px;
+  top: -310px;
+
+  /* White */
+
+  background: #ffffff;
+  /* shadow */
+
+  box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+  border-radius: 32px;
+}
+
+#show {
+  position: absolute;
+  width: 336px;
+  height: 720px;
+  margin-left: 30px;
+  top: 72px;
+
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  color: #495057;
+  border: 32px;
+
+  border-radius: 10px;
+  resize: none;
+}
+
+/* Social Media */
+.copy {
+  position: absolute;
+  width: 228px;
+  height: 18px;
+  top: 780px;
+  margin-left: 725px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+
+  /* Gray/gray-400 */
+
+  color: white;
+
+  opacity: 1;
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.social-media {
+  position: absolute;
+  display: flex;
+  gap: 20px;
+  width: 36px;
+  height: 71px;
+  margin-left: 550px;
+  top: 820px;
+}
+
+.social-media img {
+  width: 50px;
+}
+
+.social-media span {
+  font-size: 20px;
+}
+
+.instagram a,
+.twitter a,
+.github a,
+.linkedin a {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+
+  color: #343a40;
+  text-decoration: none;
+}
+
+.instagram a:hover,
+.twitter a:hover,
+.github a:hover,
+.linkedin a:hover {
+  color: #ced4da;
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+  header {
+    position: absolute;
+    top: 15px;
+    left: 12px;
+  }
+  #card img {
+    display: none;
+  }
+  section input {
+    width: 300px;
+  }
+  #input {
+    position: absolute;
+    top: 70px;
+    left: 50px;
+  }
+  aside {
+    position: absolute;
+    top: 550px;
+    left: 25px;
+  }
+  #card {
+    height: 120px;
+    width: 555px;
+  }
+  #card h3 {
+    margin-top: 0px;
+  }
+  #btn_cript {
+    margin-bottom: 15px;
+    width: 350px;
+    height: 60px;
+  }
+  #btn_descript {
+    width: 350px;
+    height: 60px;
+  }
+  #card2 {
+    height: 200px;
+    width: 555px;
+  }
+  #show {
+    width: 400px;
+    height: 100px;
+    top: 10px;
+  }
+  #btn3 {
+    bottom: 10px;
+  }
+  #position {
+    position: absolute;
+    top: 330px;
+    left: 50px;
+  }
+  #button {
+    display: flex;
+    flex-direction: column;
+  }
+  footer {
+    position: absolute;
+    left: 150px;
+    top: 700px;
+    font-size: 12px;
+  }
+  a {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 600px) {
+  header {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+  }
+  aside img {
+    display: none;
+  }
+  section input {
+    width: 300px;
+  }
+  #input {
+    position: absolute;
+    top: 100px;
+    left: 50px;
+  }
+  aside {
+    position: absolute;
+    top: 600px;
+    left: 40px;
+  }
+  #card {
+    height: 140px;
+    width: 390px;
+    border-radius: 30px;
+  }
+  #card h3 {
+    margin-top: 0px;
+  }
+  #btn_cript {
+    margin-bottom: 15px;
+    width: 350px;
+    height: 60px;
+  }
+  #btn_descript {
+    width: 350px;
+    height: 60px;
+  }
+  #card2 {
+    height: 180px;
+    width: 400px;
+  }
+  #show {
+    width: 350px;
+    height: 90px;
+    top: 10px;
+  }
+  #btn3 {
+    bottom: 10px;
+  }
+  #position {
+    position: absolute;
+    top: 380px;
+    left: 30px;
+  }
+  #button {
+    display: flex;
+    flex-direction: column;
+  }
+  footer {
+    position: absolute;
+    top: 800px;
+    left: 140px;
+    font-size: 12px;
+  }
+  a {
+    font-size: 12px;
+  }
+}
