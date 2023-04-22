@@ -6,7 +6,9 @@ window.oninput = function () {
 document.getElementById('btn3').addEventListener('click', function () {
   document.getElementById('show').select()
   document.execCommand('copy')
+  alert('Texto copiado para área de transferência')
 })
+
 //Função esconder div
 function escondeDiv() {
   if (document.getElementById('digit').value.length <= 0) {
