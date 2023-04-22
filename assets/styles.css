@@ -39,7 +39,7 @@ section input {
   width: 680px;
   height: 48px;
   left: 240px;
-  top: 18px;
+  top: -30px;
 
   border: 1px solid #868e96;
   color: #868e96;
@@ -93,7 +93,7 @@ section input::placeholder {
   position: absolute;
   width: 228px;
   height: 18px;
-  top: 690px;
+  top: 645px;
   margin-left: 530px;
 
   font-family: 'Inter';
@@ -325,7 +325,28 @@ aside {
 }
 
 /* Social Media */
-#rodaPe {
+.copy {
+  position: absolute;
+  width: 228px;
+  height: 18px;
+  top: 780px;
+  margin-left: 725px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+
+  /* Gray/gray-400 */
+
+  color: white;
+
+  opacity: 1;
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
 }
 
 .social-media {
