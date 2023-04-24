@@ -1,6 +1,6 @@
 # Decodificador de Texto 
 
-#ALURA & ONE
+# ALURA & ONE
 
 
 ## Sobre o desafio
