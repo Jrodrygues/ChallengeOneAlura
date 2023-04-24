@@ -22,4 +22,4 @@ A letra "u" é convertida para "ufat"
 - Um botão que copia o texto criptografado/descriptografado para a área de transferência.
 
 
-![Tela inicial]()
+![Tela inicial](https://github.com/Jrodrygues/ChallengeOneAlura/blob/main/assets/desktop.png)
