@@ -1,7 +1,10 @@
-# Decodificador de Texto
+# Decodificador de Texto 
+
+#ALURA & ONE
 
 
 ## Sobre o desafio
+
 Uma aplicação que criptografa e descriptografa textos.
 
 ### As "chaves" de criptografia que foram utilizadas são:
