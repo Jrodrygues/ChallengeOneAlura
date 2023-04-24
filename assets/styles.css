@@ -2,8 +2,7 @@ hyml,
 body {
   /* Light blue/light-blue-100 */
   position: absolute;
-  width: 120px;
-  height: 48px;
+  width: auto;
   left: 40px;
   top: 40px;
   padding: 0px;
@@ -386,143 +385,139 @@ aside {
   color: #ced4da;
 }
 
-@media (min-width: 601px) and (max-width: 1024px) {
-  header {
+@media screen and (max-width: 960px) {
+  body {
+    width: auto;
+    top: 150px;
+    left: -280px;
+  }
+
+  .img {
     position: absolute;
-    top: 15px;
-    left: 12px;
+    top: -160px;
+    left: 210px;
   }
-  #card img {
-    display: none;
-  }
+
   section input {
-    width: 300px;
+    position: absolute;
+    top: -100px;
+    left: 240px;
+    width: 290px;
+    height: 60px;
   }
+
   #input {
     position: absolute;
     top: 70px;
     left: 50px;
   }
-  aside {
-    position: absolute;
-    top: 550px;
-    left: 25px;
-  }
+
   #card {
-    height: 120px;
-    width: 555px;
+    position: absolute;
+    top: 100px;
+    left: -728px;
+    height: 600px;
+    width: 300px;
   }
+
   #card h3 {
+    position: absolute;
+    top: 10px;
+    left: -48px;
     margin-top: 0px;
   }
+
+  #card p {
+    position: absolute;
+    top: 75px;
+    left: -50px;
+    margin-top: 0px;
+  }
+
+  #exclamacaoAviso {
+    position: absolute;
+    top: 200px;
+    left: -200px;
+    margin-top: 0px;
+  }
+
   #btn_cript {
+    position: absolute;
+    top: -100px;
+    left: 220px;
     margin-bottom: 15px;
-    width: 350px;
+    width: 290px;
     height: 60px;
   }
+
   #btn_descript {
-    width: 350px;
+    position: absolute;
+    top: -30px;
+    left: -100px;
+    width: 290px;
     height: 60px;
   }
+
   #card2 {
-    height: 200px;
-    width: 555px;
+    position: absolute;
+    top: 100px;
+    left: 270px;
+    height: 130px;
+    width: 270px;
   }
+
   #show {
-    width: 400px;
-    height: 100px;
+    position: absolute;
+    left: -1020px;
+    width: 270px;
+    height: 130px;
     top: 10px;
   }
+
   #btn3 {
-    bottom: 10px;
+    position: absolute;
+    top: 170px;
+    left: -1050px;
+    /* bottom: 10px; */
+    width: 290px;
+    height: 60px;
   }
+
   #position {
     position: absolute;
     top: 330px;
     left: 50px;
   }
-  #button {
-    display: flex;
-    flex-direction: column;
-  }
-  footer {
-    position: absolute;
-    left: 150px;
-    top: 700px;
-    font-size: 12px;
-  }
-  a {
-    font-size: 12px;
-  }
-}
 
-@media (min-width: 375px) and (max-width: 600px) {
-  header {
+  /* RodaPe */
+
+  .instagram {
     position: absolute;
-    top: 15px;
-    left: 15px;
+    left: -260px;
+    top: 200px;
   }
-  aside img {
-    display: none;
-  }
-  section input {
-    width: 300px;
-  }
-  #input {
+
+  .twitter {
     position: absolute;
-    top: 100px;
-    left: 50px;
+    left: -80px;
+    top: 200px;
   }
-  aside {
+
+  .github {
     position: absolute;
-    top: 600px;
-    left: 40px;
+    left: -260px;
+    top: 260px;
   }
-  #card {
-    height: 140px;
-    width: 390px;
-    border-radius: 30px;
-  }
-  #card h3 {
-    margin-top: 0px;
-  }
-  #btn_cript {
-    margin-bottom: 15px;
-    width: 350px;
-    height: 60px;
-  }
-  #btn_descript {
-    width: 350px;
-    height: 60px;
-  }
-  #card2 {
-    height: 180px;
-    width: 400px;
-  }
-  #show {
-    width: 350px;
-    height: 90px;
-    top: 10px;
-  }
-  #btn3 {
-    bottom: 10px;
-  }
-  #position {
+
+  .linkedin {
     position: absolute;
-    top: 380px;
-    left: 30px;
+    left: -80px;
+    top: 260px;
   }
-  #button {
-    display: flex;
-    flex-direction: column;
-  }
-  footer {
+
+  .copy {
     position: absolute;
-    top: 800px;
-    left: 140px;
-    font-size: 12px;
-  }
-  a {
-    font-size: 12px;
+    left: -400px;
+    top: 1150px;
   }
 }
